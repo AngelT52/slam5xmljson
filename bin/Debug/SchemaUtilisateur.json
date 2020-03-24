@@ -1,0 +1,19 @@
+{
+    "title":"un utilisateur",
+    "type":"object",
+    "properties":{
+        "Nom":{"type":"string"},
+        "Prenom":{"type":"string"},
+        "Password":{"type":"string","minLength":6,"maxLength":16},
+        "Email":{"anyOf":[{
+            "type":"string",
+            "format":"email"
+        },
+        {
+            "type":"string",
+            "enum":[""]
+        }]
+    }
+    },
+    "required":["Nom","Prenom","Password"]
+}

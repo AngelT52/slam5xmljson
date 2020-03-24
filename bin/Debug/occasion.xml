@@ -1,0 +1,451 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="OCCASION">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="TITRE" type="xs:string" minOccurs="0" />
+          <xs:element name="VOITURE" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MODELE" type="xs:string" minOccurs="0" />
+                <xs:element name="CV" type="xs:string" minOccurs="0" />
+                <xs:element name="MARQUE" type="xs:string" minOccurs="0" />
+                <xs:element name="ANNEE" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIX" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENTAIRE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="OCCASION" />
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <OCCASION>
+    <TITRE>VENTE DE VOITURES D'OCCASION</TITRE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>4000 euros</PRIX>
+      <COMMENTAIRE>Toutes options c'est trop cool</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Galaxy</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>FORD</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5600 euros</PRIX>
+      <COMMENTAIRE>Premiere main, peu de kilometres, couleur bleu metallise, aucun
+accident</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Laguna</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5400 euros</PRIX>
+      <COMMENTAIRE>vehicule de service</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>aaaaa</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5000 euros</PRIX>
+      <COMMENTAIRE>Saucisse végétale</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>308</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5050 euros</PRIX>
+      <COMMENTAIRE>prix negociable, quelques options, couleur blanche</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Twingo</MODELE>
+      <CV>4 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>2850 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>406</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>65000 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Passat</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>7050 euros</PRIX>
+      <COMMENTAIRE>Premiere main</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>6400 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Polo</MODELE>
+      <CV>5 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>4400 euros</PRIX>
+      <COMMENTAIRE>Climatisation</COMMENTAIRE>
+    </VOITURE>
+  </OCCASION>
+  <OCCASION>
+    <TITRE>VENTE DE VOITURES D'OCCASION</TITRE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>4000 euros</PRIX>
+      <COMMENTAIRE>Toutes options</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Galaxy</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>FORD</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5600 euros</PRIX>
+      <COMMENTAIRE>Premiere main, peu de kilometres, couleur bleu metallise, aucun
+accident</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Laguna</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5400 euros</PRIX>
+      <COMMENTAIRE>vehicule de service</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>aaaaa</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5000 euros</PRIX>
+      <COMMENTAIRE>QUELQUES POKS</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>306</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5050 euros</PRIX>
+      <COMMENTAIRE>prix negociable, quelques options, couleur blanche</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Twingo</MODELE>
+      <CV>4 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>2850 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>406</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>65000 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Passat</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>7050 euros</PRIX>
+      <COMMENTAIRE>Premiere main</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>6400 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Polo</MODELE>
+      <CV>5 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>4400 euros</PRIX>
+      <COMMENTAIRE>Climatisation</COMMENTAIRE>
+    </VOITURE>
+  </OCCASION>
+  <OCCASION>
+    <TITRE>VENTE DE VOITURES D'OCCASION</TITRE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>4000 euros</PRIX>
+      <COMMENTAIRE>Toutes options</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Galaxy</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>FORD</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5600 euros</PRIX>
+      <COMMENTAIRE>Premiere main, peu de kilometres, couleur bleu metallise, aucun
+accident</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Laguna</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5400 euros</PRIX>
+      <COMMENTAIRE>vehicule de service</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>aaaaa</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5000 euros</PRIX>
+      <COMMENTAIRE>QUELQUES POKS</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>306</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5050 euros</PRIX>
+      <COMMENTAIRE>prix negociable, quelques options, couleur blanche</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Twingo</MODELE>
+      <CV>4 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>2850 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>406</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>65000 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Passat</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>7050 euros</PRIX>
+      <COMMENTAIRE>Premiere main</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>6400 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Polo</MODELE>
+      <CV>5 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>4400 euros</PRIX>
+      <COMMENTAIRE>Climatisation</COMMENTAIRE>
+    </VOITURE>
+  </OCCASION>
+  <OCCASION>
+    <TITRE>VENTE DE VOITURES D'OCCASION</TITRE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>4000 euros</PRIX>
+      <COMMENTAIRE>Toutes options</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Galaxy</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>FORD</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5600 euros</PRIX>
+      <COMMENTAIRE>Premiere main, peu de kilometres, couleur bleu metallise, aucun
+accident</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Laguna</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5400 euros</PRIX>
+      <COMMENTAIRE>vehicule de service</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>aaaaa</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5000 euros</PRIX>
+      <COMMENTAIRE>QUELQUES POKS</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>306</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5050 euros</PRIX>
+      <COMMENTAIRE>prix negociable, quelques options, couleur blanche</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Twingo</MODELE>
+      <CV>4 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>2850 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>406</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>65000 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Passat</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>7050 euros</PRIX>
+      <COMMENTAIRE>Premiere main</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>6400 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Polo</MODELE>
+      <CV>5 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>4400 euros</PRIX>
+      <COMMENTAIRE>Climatisation</COMMENTAIRE>
+    </VOITURE>
+  </OCCASION>
+  <OCCASION>
+    <TITRE>VENTE DE VOITURES D'OCCASION</TITRE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>4000 euros</PRIX>
+      <COMMENTAIRE>Toutes options</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Galaxy</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>FORD</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5600 euros</PRIX>
+      <COMMENTAIRE>Premiere main, peu de kilometres, couleur bleu metallise, aucun
+accident</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Laguna</MODELE>
+      <CV>10 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1997</ANNEE>
+      <PRIX>5400 euros</PRIX>
+      <COMMENTAIRE>vehicule de service</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>aaaaa</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5000 euros</PRIX>
+      <COMMENTAIRE>QUELQUES POKS</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>306</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>5050 euros</PRIX>
+      <COMMENTAIRE>prix negociable, quelques options, couleur blanche</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Twingo</MODELE>
+      <CV>4 CV</CV>
+      <MARQUE>RENAULT</MARQUE>
+      <ANNEE>1998</ANNEE>
+      <PRIX>2850 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>406</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>PEUGEOT</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>65000 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Passat</MODELE>
+      <CV>6 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>7050 euros</PRIX>
+      <COMMENTAIRE>Premiere main</COMMENTAIRE>
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Xantia</MODELE>
+      <CV>7 CV</CV>
+      <MARQUE>CITROEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>6400 euros</PRIX>
+      <COMMENTAIRE />
+    </VOITURE>
+    <VOITURE>
+      <MODELE>Polo</MODELE>
+      <CV>5 CV</CV>
+      <MARQUE>VOLKSWAGEN</MARQUE>
+      <ANNEE>1999</ANNEE>
+      <PRIX>4400 euros</PRIX>
+      <COMMENTAIRE>Climatisation</COMMENTAIRE>
+    </VOITURE>
+  </OCCASION>
+</NewDataSet>
